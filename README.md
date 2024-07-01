@@ -8,7 +8,7 @@ This repository contains scripts for extracting, processing, and crawling data r
 1. Clone the repository:
     ```bash
     git clone https://github.com/suriija/digaCrawler.git
-    cd diga-study-data-extraction
+    cd digaCrawler
     ```
 
 2. Install the required dependencies:
@@ -49,25 +49,6 @@ This script is used for extracting and processing DiGA data and importing it int
 
 This script is designed to scrape information from a DiGA (Digitale Gesundheitsanwendung) website using Selenium. It extracts data related to various health apps and their details.
 
-#### Overview
-
-The script navigates through the DiGA website, retrieves essential app information, and extracts answers to specific questions about each app.
-
-#### Requirements
-
-- Python 3.x
-- Selenium
-- pandas
-- webdriver_manager
-- Jupyter Notebook
-
-You can install the required packages using the following commands:
-```bash
-pip install selenium 
-pip install pandas
-pip install sqlite
-pip install webdriver-manager
-```
 
 #### Chrome and ChromeDriver Issues
 

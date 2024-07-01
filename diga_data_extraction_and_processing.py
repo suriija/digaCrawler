@@ -228,8 +228,8 @@ def process_texts(texts):
 # Main function to read the CSV file and extract the data
 def main():
     input_file_path = "F_diga_verzeichnis_2024_06_02.csv"
-    output_file_path_csv = "Liste.csv"
-    output_file_path_excel = "Liste.xlsx"
+    output_file_path_csv = "pico_liste.csv"
+    output_file_path_excel = "pico_liste.xlsx"
     
     data = []
     with open(input_file_path, 'r', encoding='utf-8') as file:

@@ -68,7 +68,3 @@ Here, the driver version chosen is 124.0.6367.91.
 3. Run each cell in the notebook sequentially. You can do this by clicking the "Run" button or using the shortcut Shift + Enter.
 4. The notebook will extract information from the DiGA website and display the results in the output of the respective cells. The extracted data will also be saved as a DataFrame in a CSV file.
 
-
-## Database Schema
-
-The SQLite database contains the following tables:
